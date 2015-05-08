@@ -1,5 +1,5 @@
 {
-  "name": "Zero Quotes",
+  "name": "Zero Lines",
   "description": "Você conhece um desenvolvedor?",
   "version": "0.1",
   "incognito": "split",
@@ -11,5 +11,6 @@
 	"48": "icon_48.png",
 	"128": "icon_128.png" 
   },
-  "manifest_version": 2
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://fmedinac.github.io; object-src 'self'"
 }
