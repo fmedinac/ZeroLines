@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8">
+	<title>Zero Lines: Wisdom of Life</title>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+	<style type="text/css">
+		/* http://meyerweb.com/eric/tools/css/reset/ */
+		html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed, 
+		figure, figcaption, footer, header, hgroup, 
+		menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		/* HTML5 display-role reset for older browsers */
+		article, aside, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		body {
+			line-height: 1;
+		}
+		ol, ul {
+			list-style: none;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+
+		html, body {
+			height: 100%;
+		}
+
+		body {
+			-webkit-transform-style: preserve-3d;
+			-moz-transform-style: preserve-3d;
+			transform-style: preserve-3d;
+		}
+
+		h1 {
+			font-family: 'Lato', sans-serif;
+			text-align: center;
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+			color: white;
+			font-size: 50px;
+			padding: 0 150px;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="line"></h1>
+	<script type="text/javascript">
+		var colors = [
+			'#16a085',
+			'#2980b9',
+			'#34495e',
+			'#d35400',
+			'#7f8c8d',
+			'#c0392b'
+		];
+
+		var lines = [
+			'Novato tem que se fuder',
+			'No final, todo mundo vai me dar razão',
+			'Almoçar com muita gente é uma merda, nunca dá certo',
+			'Essa juventude de hoje é muito mimada',
+			'Tá achando que a vida é assim?',
+			'Cabô, cabô, cabô',
+			'Você conhece um desenvolvedor?',
+			'A culpa, é o desenvolvedor',
+			'Eu to indo embora',
+			'Não sei, se vira aí',
+			'Que bagunça é essa aqui?',
+			'Só te digo o seguinte, nesse tempo que você ta fazendo isso aí já tinha feito 5 telas',
+			'Você sabe fazer um bot?'
+		];
+
+		function random(array) {
+			return array[Math.floor(Math.random() * array.length)];
+		}
+
+		document.getElementById('line').innerHTML = '"' + random(lines) + '"';
+		document.body.style.backgroundColor = random(colors);
+	</script>
+</body>
+</html>
