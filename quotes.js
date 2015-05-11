@@ -27,7 +27,7 @@ var colors = [
 			'Que aula hein? Que aula.',
 			'Nossa, o Júlio é tão engraçado..',
 			'Faltar a uma pelada depois de confirmar, só em caso de extrema urgência.',
-			'Não é Marcos?',
+			'Não é, Marcos?',
 			'Que que é isso Marcola!?',
 			'Tem que tá focado.',
 			'Porra.',
