@@ -40,7 +40,6 @@ var lines = [
 	'Que porra de calça é essa?',
 	'Essa calça no brasil é cartão amarelo.'
 ];
-
 function random(array) {
 	return array[Math.floor(Math.random() * array.length)];
 }
