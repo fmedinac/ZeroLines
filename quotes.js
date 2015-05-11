@@ -39,7 +39,8 @@ var lines = [
 	'É muita vontade de vencer.',
 	'Que porra de calça é essa?',
 	'Essa calça no Brasil é cartão amarelo.',
-	'Caaaaalma!'
+	'Caaaaalma!',
+	'Tirando pornografia, futebol é o que dá mais dinheiro nesse planeta.'
 ];
 function random(array) {
 	return array[Math.floor(Math.random() * array.length)];
