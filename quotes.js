@@ -38,7 +38,7 @@ var lines = [
 	'Sorte? Sorte é para os fracos!',
 	'É muita vontade de vencer.',
 	'Que porra de calça é essa?',
-	'Essa calça no brasil é cartão amarelo.'
+	'Essa calça no Brasil é cartão amarelo.'
 ];
 function random(array) {
 	return array[Math.floor(Math.random() * array.length)];
