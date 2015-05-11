@@ -33,7 +33,7 @@ var colors = [
 			'Porra.',
 			'Ninguém mais tem compromisso com absolutamente nada!',
 			'Tá de folga?',
-			'Ta fazendo freela!?',
+			'Tá fazendo freela!?',
 			'O Salvador tem um humor muito particular.'
 		];
 
